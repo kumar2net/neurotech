@@ -1,6 +1,6 @@
 # Product Requirements Document: Deep Learning in Neurology
 
-**Date:** July 30, 2025
+**Date:** August 4, 2025
 
 ## 1. Overview
 
