@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-07-30T07:07:43.700174",
+  "last_updated": "2025-08-04T16:38:20.000000",
   "research_cycles": [
     {
       "cycle_id": "2025-week-31",
@@ -10,8 +10,8 @@
       "status": "pending"
     },
     {
-      "cycle_id": "2025-week-31",
-      "date_range": "July 30 - August 05, 2025",
+      "cycle_id": "2025-week-32",
+      "date_range": "August 04 - August 10, 2025",
       "papers_analyzed": 45,
       "findings": [
         {
@@ -1174,7 +1174,7 @@
       ],
       "summary": "Analyzed 45 papers this week. Top research areas: neuroimaging, diagnosis_prediction, neuromodulation Most mentioned models: vit, cnn, transformer",
       "status": "completed",
-      "completion_date": "2025-07-30T07:07:43.700169"
+      "completion_date": "2025-08-04T16:38:20.000000"
     }
   ],
   "categories": {

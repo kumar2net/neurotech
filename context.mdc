@@ -1,0 +1,108 @@
+---
+alwaysApply: false
+---
+
+# Project Learnings: Neuro-Frontiers
+
+**Date:** Jul 30, 2025
+
+## 1. Project Architecture
+
+The Neuro-Frontiers project is designed as an automated system to gather, process, and display the latest research in neurotechnology and deep learning.
+
+### Directory Structure:
+```
+nuerotech/
+  - feynman_explanations.json
+  - feynman_generator.py
+  - index.html
+  - PRD.md
+  - README.md
+  - requirements.txt
+  - research_agent.py
+  - research_data.json
+  - research.html
+  - scheduler.py
+  - web_updater.py
+  - context.mdc
+```
+
+### Core Components:
+-   **`research_agent.py`**: A Python script responsible for collecting research papers and articles from online sources.
+-   **`feynman_generator.py`**: Generates simplified, easy-to-understand explanations of complex scientific topics using the Feynman technique.
+-   **`web_updater.py`**: A script that processes the collected data and updates the content of the web pages.
+-   **`scheduler.py`**: Automates the entire workflow, ensuring the research data is refreshed on a weekly basis.
+
+### Frontend:
+-   **`index.html`**: The main landing page that provides a high-level overview of key research areas and includes interactive elements for detailed explanations.
+-   **`research.html`**: A dedicated page for displaying a comprehensive list of the latest research papers, with dynamic content loaded from `research_data.json`.
+-   The frontend is styled with **Tailwind CSS** and is fully responsive.
+
+## 2. Development Workflow
+
+The development and deployment process follows these steps:
+1.  **Local Review**: Changes are reviewed locally using a simple Python web server (`python3 -m http.server`).
+2.  **Version Control**: Code is version-controlled with Git.
+3.  **Staging and Committing**: Changes are staged with `git add .` and committed with a descriptive message using `git commit -m "message"`.
+4.  **Pushing to Remote**: The committed changes are pushed to the `development` branch on the GitHub repository.
+5.  **Deployment**: The website is deployed to production via the Netlify CLI using the `netlify deploy --prod` command.
+
+## 3. Key Fixes and Updates
+
+During our session, we addressed several issues and made important updates:
+-   **Corrected HTML Structure**: Fixed a critical error in `index.html` where the `data-content` for the "Deep Learning in Neuroscience" section was malformed, causing rendering issues.
+-   **Removed Redundant Code**: Deleted duplicate "Research Status Indicator" elements to clean up the `index.html` file.
+-   **Documentation Update**: Ensured that all documentation, including `PRD.md`, reflects the current system date.
+-   **To-Do List Management**: Established a structured to-do list to track project progress, with completed tasks marked accordingly.
+# Project Learnings: Neuro-Frontiers
+
+**Date:** Jul 30, 2025
+
+## 1. Project Architecture
+
+The Neuro-Frontiers project is designed as an automated system to gather, process, and display the latest research in neurotechnology and deep learning.
+
+### Directory Structure:
+```
+nuerotech/
+  - feynman_explanations.json
+  - feynman_generator.py
+  - index.html
+  - PRD.md
+  - README.md
+  - requirements.txt
+  - research_agent.py
+  - research_data.json
+  - research.html
+  - scheduler.py
+  - web_updater.py
+  - context.mdc
+```
+
+### Core Components:
+-   **`research_agent.py`**: A Python script responsible for collecting research papers and articles from online sources.
+-   **`feynman_generator.py`**: Generates simplified, easy-to-understand explanations of complex scientific topics using the Feynman technique.
+-   **`web_updater.py`**: A script that processes the collected data and updates the content of the web pages.
+-   **`scheduler.py`**: Automates the entire workflow, ensuring the research data is refreshed on a weekly basis.
+
+### Frontend:
+-   **`index.html`**: The main landing page that provides a high-level overview of key research areas and includes interactive elements for detailed explanations.
+-   **`research.html`**: A dedicated page for displaying a comprehensive list of the latest research papers, with dynamic content loaded from `research_data.json`.
+-   The frontend is styled with **Tailwind CSS** and is fully responsive.
+
+## 2. Development Workflow
+
+The development and deployment process follows these steps:
+1.  **Local Review**: Changes are reviewed locally using a simple Python web server (`python3 -m http.server`).
+2.  **Version Control**: Code is version-controlled with Git.
+3.  **Staging and Committing**: Changes are staged with `git add .` and committed with a descriptive message using `git commit -m "message"`.
+4.  **Pushing to Remote**: The committed changes are pushed to the `development` branch on the GitHub repository.
+5.  **Deployment**: The website is deployed to production via the Netlify CLI using the `netlify deploy --prod` command.
+
+## 3. Key Fixes and Updates
+
+During our session, we addressed several issues and made important updates:
+-   **Corrected HTML Structure**: Fixed a critical error in `index.html` where the `data-content` for the "Deep Learning in Neuroscience" section was malformed, causing rendering issues.
+-   **Removed Redundant Code**: Deleted duplicate "Research Status Indicator" elements to clean up the `index.html` file.
+-   **Documentation Update**: Ensured that all documentation, including `PRD.md`, reflects the current system date.
+-   **To-Do List Management**: Established a structured to-do list to track project progress, with completed tasks marked accordingly.
